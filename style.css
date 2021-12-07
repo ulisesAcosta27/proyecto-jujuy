@@ -27,9 +27,12 @@ body{
     font-size: 1.3rem;
     padding: 0 .1rem 0 0 ;
 }
+.logo_img{
+    margin: .3rem;
+}
 
 .logo_img img{
-    width: 2rem;
+    width: 1.4rem;
 }
 
 ul{
@@ -122,7 +125,7 @@ section h2{
     width: 40rem;
     margin: 0 2rem;
     border-radius: 3px;
-border-top-right-radius: 60px;
+/* border-top-right-radius: 60px; */
 border-bottom-left-radius: 60px;
 }
 
@@ -159,6 +162,7 @@ border-bottom-left-radius: 60px;
     align-items: center;
     background-color: #eef8ff96;
     border-radius: 1rem;
+    flex-wrap: wrap;
 }
 
 .card2{
@@ -278,6 +282,11 @@ border-bottom-left-radius: 60px;
     text-decoration: line-through;
 }
 
+/* map */
+#map {
+	height: 500px;
+	width: 100%;
+}
 /* regiones */
 
 .regiones_container{
