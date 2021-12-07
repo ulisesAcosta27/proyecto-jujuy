@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header */
+.header_container{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    margin: .4rem;
+    margin-left: 2rem;
+}
+
+.logo_texto p{
+    font-size: 1.3rem;
+    padding: 0 .1rem 0 0 ;
+}
+
+.logo_img img{
+    width: 2rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: .6rem;
+    margin-right: 2rem;
+}
+
+ul li a{
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.menu i,
+.menu_close i{
+    font-size: 1.6rem;
+}
+
+.menu,
+.menu_close{
+    display: none;
+}
+
+/* hero */
+
+.hero{
+    background: url(img/Img_Inicio1.png);
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_texto{
+    color: white;
+    text-align: center;
+}
+
+.hero_texto h1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.hero_texto p{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* main */
+
+.main{
+    width: 80%;
+    margin: 0 10%;
+}
+
+/* section */
+
+section h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 4rem;
+}
+
+.card{
+    width: 100%;
+    height: 25rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    background-color: #eef8ff96;
+    border-radius: 1rem;
+}
+
+.card:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.card:nth-child(4){
+    flex-direction: row-reverse;
+}
+
+.card_img img{
+    height: 23rem;
+    width: 40rem;
+    margin: 0 2rem;
+    border-radius: 3px;
+border-top-right-radius: 60px;
+border-bottom-left-radius: 60px;
+}
+
+.card_texto{
+    text-align: center;
+    padding: 1rem;
+}
+.card_texto h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.card_texto p{
+    margin-bottom: 1.3rem;
+}
+.card_texto a{
+    text-decoration: none;
+    color: white;
+    padding: .7rem 1rem;
+    background-color: rgba(0, 0, 0, 0.89);
+    transition: .3s 0s ease-in-out;
+}
+
+.card_texto a:hover{
+    padding: .7rem 2rem;
+    background-color: black;
+}
+
+.destacados_container{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eef8ff96;
+    border-radius: 1rem;
+}
+
+.card2{
+    width: 16rem;
+    height: 30rem;
+    /* position: absolute; */
+}
+
+.fecha{
+    position: relative;
+    padding: 1rem;
+    display: inline-block;
+    background-color: #ffd24b;
+    top: -2rem;
+    left: 4.5rem;
+}
+
+.card2_img{
+    height: 18rem;
+}
+.card2_img img{
+    width: 16rem;
+    height: 15rem;
+}
+
+.card2_texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2_texto h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card2_texto p{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(29, 26, 26);
+}
+.card2_texto a{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+/* 
+.boton{
+    background-color: #ffd24b;
+    width: 3rem;
+    height: 3rem;
+    position: ;
+    z-index: 1;
+}
+
+.boton i{
+    font-size: 2rem;
+    padding: .5rem;
+} */
+
+/* eventos */
+
+.card3{
+    width: 16rem;
+    height: 30rem;
+    /* position: absolute; */
+}
+.ticket{
+    position: relative;
+    padding: 1rem;
+    display: inline-block;
+    background-color: #fa2e2e;
+    top: -15.5rem;
+    left: 4.5rem;
+}
+
+.card3:nth-child(3) .card3_img .ticket{
+    background-color: rgb(13, 200, 13);
+}
+
+.card3_img{
+    height: 17rem;
+}
+
+.card3_img img{
+    width: 16rem;
+    height: 15rem;
+}
+
+
+.card3_texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card3_texto h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card3_texto p{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(29, 26, 26);
+}
+.card3_texto a{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    text-decoration: line-through;
+}
+
+/* regiones */
+
+.regiones_container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eef8ff96;
+    border-radius: 1rem;
+}
+
+.card4{
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card4_img{
+    height: 15rem;
+    margin-top: 1rem;
+}
+.card4_img img{
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.card4_texto{
+    padding: 1rem;
+    text-align: center;
+}
+
+.card4_texto h4{
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+
+.card4_texto p{
+    margin-bottom: 1.5rem;
+}
+.card4_texto a{
+    padding: .7rem 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
