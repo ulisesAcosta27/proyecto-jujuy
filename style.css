@@ -15,6 +15,8 @@ body{
     height: 3rem;
     width: 100%;
     justify-content: space-between;
+    background-color: white;
+    z-index: 1;
 }
 
 .logo{
@@ -40,6 +42,7 @@ ul{
     list-style: none;
     margin: .6rem;
     margin-right: 2rem;
+    transition: .3s all ease;
 }
 
 ul li a{
@@ -49,15 +52,23 @@ ul li a{
 }
 
 .menu i,
-.menu_close i{
-    font-size: 1.6rem;
+.cerrar i{
+    font-size: 2rem;
 }
 
+.cerrar{
+    cursor: pointer;
+}
 .menu,
-.menu_close{
+.cerrar{
     display: none;
 }
 
+.menu{
+    cursor: pointer;
+    padding: .5rem;
+    margin-right: 1rem;
+}
 /* hero */
 
 .hero{

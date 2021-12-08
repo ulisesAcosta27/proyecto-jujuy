@@ -13,6 +13,41 @@
 }
 
 @media screen and (max-width: 1024px){
+    .menu,
+    .cerrar{
+        display: block;
+        z-index: 1;
+    }
+    .ul_bg{
+        position: fixed;
+        background-color: white;
+        z-index: 1;
+        width: 60%;
+        height: 100vh;
+        margin: 0;
+        top: 3rem;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        box-shadow: 7px 3px 7px rgba(0, 0, 0, .055);
+    }
+    .active{
+        position: fixed;
+        top: 3rem;
+        left: 0;
+    }
+
+    ul li{
+        margin: 1rem 0;
+    }
+    .cerrar{
+        margin-top: 1rem;
+    }
+    .cerrar{
+        font-size: 2.5rem;
+    }
     .card{
         flex-direction: column;
         width: 100%;
