@@ -18,6 +18,9 @@
         display: block;
         z-index: 1;
     }
+    .carta{
+        left: 13rem;
+    }
     .ul_bg{
         position: fixed;
         background-color: white;
@@ -72,6 +75,14 @@
 @media screen and (max-width: 414px){
     .hero_texto h1{
         font-size: 4rem;
+    }
+    .carta{
+        left: 1rem;
+        width: 22rem;
+        height: 18rem;
+    }
+    .carta a{
+        margin: 7.6rem;
     }
     .hero_texto p{
         font-size: 1.1rem;
