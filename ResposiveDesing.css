@@ -76,6 +76,10 @@
     .hero_texto p{
         font-size: 1.1rem;
     }
+    .ul_bg{
+        width: 60%;
+        font-size: 1.1rem;
+    }
     section h2{
         font-size: 1.5rem;
         padding: 1rem;
